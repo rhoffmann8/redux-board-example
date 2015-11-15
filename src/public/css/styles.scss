@@ -1,0 +1,21 @@
+.board {
+    height: 200px;
+    width: 200px;
+    background-color: #000;
+    border: 1px solid #000;
+    outline: none;
+}
+
+.cell, .cursor {
+    box-sizing: border-box;
+    width: 20%;
+    height: 20%;
+}
+
+.cell {
+    float: left;
+}
+
+.cursor {
+    position: relative;
+}
